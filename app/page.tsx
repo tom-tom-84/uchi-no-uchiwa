@@ -5,25 +5,25 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 // サンプルデータ
 const featuredProducts = [
   {
-    id: 1,
-    title: 'シンプルうちわ',
-    price: 1200,
-    imageUrl: 'https://images.unsplash.com/photo-1624374053855-39a5a1a41402?q=80&w=500',
-    description: '持ちやすい軽量デザイン。暑い夏に最適な一品です。',
+    id: "1",
+    title: "シンプルうちわ",
+    price: 1000,
+    imageUrl: "/products/simple-uchiwa.jpg",
+    description: "シンプルで使いやすい定番うちわ",
   },
   {
-    id: 2,
-    title: '和風うちわ',
-    price: 1800,
-    imageUrl: 'https://images.unsplash.com/photo-1624374053855-39a5a1a41402?q=80&w=500',
-    description: '伝統的な和柄デザイン。贈り物にも最適です。',
+    id: "2",
+    title: "和風うちわ",
+    price: 1500,
+    imageUrl: "/products/japanese-uchiwa.jpg",
+    description: "伝統的な和柄デザインのうちわ",
   },
   {
-    id: 3,
-    title: 'アーティストうちわ',
-    price: 2200,
-    imageUrl: 'https://images.unsplash.com/photo-1624374053855-39a5a1a41402?q=80&w=500',
-    description: '人気アーティストとコラボレーションした限定デザイン。',
+    id: "3",
+    title: "アーティストうちわ",
+    price: 2000,
+    imageUrl: "/products/artist-uchiwa.jpg",
+    description: "アーティストとコラボレーションしたうちわ",
   },
 ];
 
